@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: #ffdd77;
+}
+nav {
+    position: fixed;
+    background: grey;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 12;
+}
+nav .menu {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.menu .logo a {
+    text-decoration: none rgb(255, 255, 255);
+    color:  rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 35px;
+    
+}
+.menu ul {
+    display: inline-flex;
+}
+.menu ul li {
+    list-style-type: none;
+    margin-left: 7px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.menu ul li a:hover {
+    background-color: palevioletred;
+    color: #373232;
+}
+#img {
+    height: 350px;
+    width: 350px;
+    background-color: none;
+    position: relative;
+    left: 700px;
+    top: 160px;
+    
+}
+.center {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    padding: 0 20px;
+    text-align: center;
+}
+.title {
+    color: #000;
+    font-size: 70px;
+    font-weight: 600;
+    position: relative;
+    right: 450px;
+}
+.center .sub_title {
+    color: #000;
+    font-size: 70px;
+    font-weight: 900;
+    position: relative;
+    right: 450px;
+}
+
+.header {
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+.center .BTNS {
+    margin-top: 20px;
+}
+.center .BTNS button {
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    border: 2px solid #fff;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0 10px;
+    outline: none;
+    transition: all 0.3s ease;
+    position: relative;
+    top: 70px;
+    right: 490px;
+}
+.center .BTNS button:first-child:hover {
+    background-color: rgb(128, 128, 128);
+    color: #fff;
+}
+.center .BTNS button:last-child {
+    background: cyan;
+    color: #000;
+}
+#fav1 {
+    width: 40px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    height: 40px;
+    position: relative;
+    top: -237px;
+    right: -60px;
+}
+#fav2 {
+    width: 40px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    height: 40px;
+    position: relative;
+    top: -237px;
+    right: -60px;
+}
+#fav3 {
+    width: 40px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    height: 40px;
+    position: relative;
+    top: -237px;
+    right: -60px;
+}
+#fav4 {
+    width: 40px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    height: 40px;
+    position: relative;
+    top: -237px;
+    right: -60px;
+}
+#day1 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -270px;
+    right: -120px;
+}
+#day2 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -270px;
+    right: -120px;
+}
+#day3 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -270px;
+    right: -120px;
+}
+#day4 {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: -270px;
+    right: -120px;
+}
+.me {
+    position: relative;
+    top: 665px;
+    left: 400px;
+}
+.me2 {
+    position: relative;
+    top: 665px;
+    left: 400px;
+}
+.me3 {
+    position: relative;
+    top: 665px;
+    left: 400px;
+}
+#xen {
+    position: relative;
+    bottom: 35px;
+}
+.name {
+    position: relative;
+    top: 100px;
+}
+.name2 {
+    position: relative;
+    top: 100px;
+}
+#day5 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 5px;
+}
+#week {
+    text-decoration: none;
+    height: 50px;
+    
+}
+footer{
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    /* position: absolute; */
+    width: 100%;
+    /* top: 700px; */
+    border: 2px solid red;
+    z-index: 12;
+}
+.bay {
+    position: relative;
+    bottom: 100px;
+    background-color: #00ffff;
+}
+.sleep {
+    position: relative;
+    left: 470px;
+    bottom: 190px;
+}
+.logo1 a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    bottom: 390px;
+    left: 550px;
+    font-size: 20px;
+}
+.bay ul li a {
+    background-color: #00ffff;
+}
